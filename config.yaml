@@ -37,3 +37,10 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: tou-cloudpeek.xyz
+    name: The Cloudpeek App1
+    url: 'https://tou.cloudpeek.xyz/mons1234'
+    method: GET
+    expectStatus: 200
+
