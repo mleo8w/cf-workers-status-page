@@ -44,3 +44,9 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: apac-ankur-demo
+    name: The BP Demo
+    url: 'https://apac-ankbp.byteplus-demo.com/mons1234'
+    method: GET
+    expectStatus: 200  
+
