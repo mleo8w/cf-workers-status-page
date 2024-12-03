@@ -34,11 +34,4 @@ monitors:
     name: The BP Demo
     url: 'https://apac-ankbp.byteplus-demo.com/mons1234'
     method: GET
-    expectStatus: 200  
-
-  - id: playpark-com
-    name: The WWW PP Demo
-    url: 'https://www.playpark.com'
-    method: GET
-    expectStatus: 200  
-
+    expectStatus: 200
