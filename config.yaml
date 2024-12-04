@@ -35,3 +35,9 @@ monitors:
     url: 'https://apac-ankbp.byteplus-demo.com/mons1234'
     method: GET
     expectStatus: 200
+
+  - id: www-playpark-com
+    name: The PP WWWW
+    url: 'https://www.playpark.com/'
+    method: GET
+    expectStatus: 301
