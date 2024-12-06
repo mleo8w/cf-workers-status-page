@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Status Page 9'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -47,3 +47,9 @@ monitors:
     url: 'https://streetballers.playpark.com/'
     method: GET
     expectStatus: 302
+
+ - id: app-odd-me
+    name: The Oddle App
+    url: 'https://app.oddle.me/'
+    method: GET
+    expectStatus: 200
