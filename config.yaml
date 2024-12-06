@@ -40,10 +40,10 @@ monitors:
     name: The PP WWWW
     url: 'https://www.playpark.com/'
     method: GET
-    expectStatus: 301
+    expectStatus: 302
 
  - id: street-playpark-com
     name: The PP streetball
     url: 'https://streetballers.playpark.com/'
     method: GET
-    expectStatus: 301
+    expectStatus: 302
